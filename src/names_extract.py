@@ -25,4 +25,5 @@ def named_entities(cleaned_tweet_data):
                     curr+=1
                 else:
                     names_dictionary[word_text]=1
+                    
     return names_dictionary
